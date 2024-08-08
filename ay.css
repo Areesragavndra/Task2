@@ -21,6 +21,10 @@ nav li{
     font-size:large;
     font: bolder;
     margin-left: 70px;
+   
+}
+li a{
+    text-decoration-line: none;
 }
 
 li:hover{
