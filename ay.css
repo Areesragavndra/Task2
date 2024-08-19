@@ -95,7 +95,7 @@ width: 100%;
    
 }
 .photo img{
-    float: left;
+    display: flexC;
     height: 300px;
     width: 40%;
 }
