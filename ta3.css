@@ -1,0 +1,67 @@
+.a{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(45, 13, 75);
+}
+h1{
+    color: white;
+}
+.main{
+   
+    height: 700px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(3,auto);
+    gap: 1rem;
+    margin-left: 200px;
+    padding-top: 5px;
+}
+
+.c1{
+    background-color: green;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.c2{
+    background-color: green;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    
+}
+.c3{
+    background-color: red;
+}
+.c4{
+    background-color: yellow;
+}
+.c5{
+    background-color: red;
+}
+.c6{
+    background-color: green;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+
+    
+}
+.c7{
+    background-color: red;
+}
+.c8{
+    background-color: yellow;
+}/*
+.c9{
+    background-color: green;
+}
+.c10{
+    background-color: red;
+}
+.c11{
+    background-color: yellow;
+}
+.c12{
+    background-color: green;
+}
